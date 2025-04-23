@@ -1,0 +1,24 @@
+{
+    "name": "agicap-pennylane-pdf-transfer",
+    "version": "1.0.0",
+    "description": "API pour récupérer des PDF depuis AGICAP et les uploader vers Pennylane",
+    "main": "server.js",
+    "author": "Arthur Chevron",
+    "scripts": {
+        "start": "node server.js --env:prod",
+        "dev": "nodemon server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "axios": "^1.6.0",
+        "cors": "^2.8.5",
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2",
+        "form-data": "^4.0.0",
+        "helmet": "^7.1.0",
+        "morgan": "^1.10.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.1"
+    }
+  }
